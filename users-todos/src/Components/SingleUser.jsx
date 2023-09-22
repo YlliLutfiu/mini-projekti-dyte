@@ -17,7 +17,7 @@ const SingleUser = () => {
   }, [userId]);
   return (
     <div className="user-wrapper">
-      <button className="back" onClick={() => navigate("/")}>
+      <button className="back" onClick={() => navigate(-1)}>
         &#8592; Go back
       </button>
       {user && (
